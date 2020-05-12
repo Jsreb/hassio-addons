@@ -34,5 +34,6 @@
     "compatibility_mode": "bool"
   },
   "devices": ["/dev/sda1:/dev/sda1:rwm"],
+  "privileged": ["SYS_ADMIN"],
   "image": "homeassistant/{arch}-addon-samba"
 }
