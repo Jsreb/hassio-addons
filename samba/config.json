@@ -33,5 +33,6 @@
     "veto_files": ["str"],
     "compatibility_mode": "bool"
   },
+  "devices": ["/dev/sda1:/dev/sda1:rwm"],
   "image": "homeassistant/{arch}-addon-samba"
 }
